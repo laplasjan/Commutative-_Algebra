@@ -12,3 +12,5 @@ That repository is deployed during a Research in Commutative Algebra Research gr
 
 
 **rownolegle** returns weight which numbers of odd iterations is not equal to numbers of even iterations.
+\
+![rownolegle](https://i.imgur.com/yA1ne5r.png)
