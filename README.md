@@ -14,15 +14,15 @@ Ensures the graph nodes are initialized with custom weights for further operatio
  - Iterative Weight Normalization
 Procedures to transform all node weights to positive or negative values using iterative reflection:
 - Positive Weight Normalization:
-- - zmiana_na_dodatnie_obl: Iteratively adjusts negative weights without sorting.
-- - zmiana_na_dodatnie: Prioritizes nodes with the smallest weights.
+  - zmiana_na_dodatnie_obl: Iteratively adjusts negative weights without sorting.
+  - zmiana_na_dodatnie: Prioritizes nodes with the smallest weights.
 - Negative Weight Normalization:
-- - zmiana_na_ujemne_obl: Iteratively adjusts positive weights without sorting.
-- - zmiana_na_ujemne: Prioritizes nodes with the largest weights.
-- - Selective Node Exclusion
+  - zmiana_na_ujemne_obl: Iteratively adjusts positive weights without sorting.
+  - zmiana_na_ujemne: Prioritizes nodes with the largest weights.
+  - Selective Node Exclusion
 Allows specific nodes to be excluded from transformations:
-- - omijanie_dodatnich: Avoids certain nodes during positive weight normalization.
-- - omijanie_ujemnych: Avoids certain nodes during negative weight normalization.
+  - omijanie_dodatnich: Avoids certain nodes during positive weight normalization.
+  - omijanie_ujemnych: Avoids certain nodes during negative weight normalization.
 
 # Usage Instructions
 Run the Notebook:
